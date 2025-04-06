@@ -1,0 +1,44 @@
+.bottombar{
+    width: 100%;
+    background-color: #E6F0F8;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    flex-wrap: wrap;
+}
+.bottombar h1{
+    text-align: center;
+    font-size: 1.6rem;
+    padding-bottom:1rem;
+}
+.services-cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.services-cards .service-card{
+    width: 20rem;
+    height: 14rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1rem;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    /* flex-wrap: wrap; */
+    /* justify-content: space-between; */
+}
+
+.services-cards .service-card img{
+    width: 100%;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+.bottom-text{
+    text-decoration: none;
+    color: black;
+}
+.consultingcard{
+    height: 150px;
+}

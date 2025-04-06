@@ -1,0 +1,122 @@
+/* Application Development CSS Module */
+
+.sectionTitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+  color: #082444;
+}
+
+.highlightText {
+  color: #20367d;
+}
+
+.sectionSubtitle {
+  font-size: 1.125rem;
+  line-height: 1.6;
+  color: #4A5568;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.fullWidthText {
+  font-size: 1.125rem;
+  line-height: 1.6;
+  color: #4A5568;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.bgLightBlue {
+  background-color: #F5F9FF;
+}
+
+.bgLighterBlue {
+  background-color: #EBF5FF;
+}
+
+.bgGray {
+  background-color: #F7FAFC;
+}
+
+.sectionPadding {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+/* Animation Classes */
+.animateDelay0 {
+  animation-delay: 0ms;
+}
+
+.animateDelay100 {
+  animation-delay: 100ms;
+}
+
+.animateDelay200 {
+  animation-delay: 200ms;
+}
+
+.animateDelay300 {
+  animation-delay: 300ms;
+}
+
+.animateDelay400 {
+  animation-delay: 400ms;
+}
+
+.animateDelay500 {
+  animation-delay: 500ms;
+}
+
+/* Feature Card Styles */
+.featureCard {
+  background-color: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.featureCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Process Card Styles */
+.processCard {
+  background-color: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .sectionTitle {
+    font-size: 2rem;
+  }
+  
+  .sectionPadding {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .sectionTitle {
+    font-size: 1.75rem;
+  }
+  
+  .sectionSubtitle {
+    font-size: 1rem;
+  }
+  
+  .processCard {
+    flex-direction: column;
+  }
+} 

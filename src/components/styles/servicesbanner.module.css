@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Inter:wght@400;700&display=swap');
+
+.services-banner-container {
+  position: relative;
+  width: 100%;
+  max-width: 1440px;
+  height: auto;
+  min-height: auto;
+  margin: 0 auto;
+  background: #FFFFFF;
+  overflow: hidden;
+}
+
+.hero-section {
+  position: relative;
+  width: 100%;
+  height: 810px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -358px;
+}
+
+.hero-overlay {
+  position: absolute;
+  width: 100%;
+  height: 452px;
+  top: 358px;
+  background: linear-gradient(177.88deg, rgba(14, 102, 143, 0.8) 4.56%, rgba(11, 33, 66, 0.8) 98.24%);
+}
+
+.main-banner {
+  position: absolute;
+  width: 928px;
+  height: 237px;
+  left: 68px;
+  top: 465px; 
+  background: linear-gradient(177.88deg, #1694CE 4.56%, #071326 98.24%);
+}
+
+.banner-content {
+  position: relative;
+  padding: 35px 29px;
+}
+
+.banner-content h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 80px;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+.banner-content h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #00A3FF;
+  margin: 8px 0 0 0;
+}
+
+.case-study-container {
+  position: relative;
+  width: 1266px;
+  height: auto;
+  margin: -64px auto 0;
+  background: #FFFFFF;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.case-study-content {
+  position: relative;
+  padding: 24px 45px;
+}
+
+.case-study-content h2 {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 80px;
+  color: #112C56;
+  margin: 0 0 16px 0;
+}
+
+.case-study-content p {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+  margin: 0 0 16px 0;
+  max-width: 1100px;
+}
+
+.case-study-link {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #1694CE;
+  text-decoration: underline;
+}
+
+@media (max-width: 1439px) {
+  .main-banner {
+    width: 80%;
+    left: 5%;
+  }
+  
+  .case-study-container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 992px) {
+  .banner-content h1 {
+    font-size: 48px;
+    line-height: 65px;
+  }
+  
+  .banner-content h2 {
+    font-size: 20px;
+  }
+  
+  .case-study-content h2 {
+    font-size: 40px;
+    line-height: 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-banner {
+    width: 90%;
+    height: auto;
+  }
+  
+  .banner-content h1 {
+    font-size: 36px;
+    line-height: 48px;
+  }
+  
+  .case-study-container {
+    height: auto;
+  }
+  
+  .case-study-content h2 {
+    font-size: 32px;
+    line-height: 45px;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-section {
+    height: 700px;
+  }
+  
+  .main-banner {
+    width: 95%;
+    left: 2.5%;
+    top: 420px;
+  }
+  
+  .banner-content {
+    padding: 20px 15px;
+  }
+  
+  .banner-content h1 {
+    font-size: 28px;
+    line-height: 38px;
+  }
+  
+  .banner-content h2 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  
+  .case-study-container {
+    margin-top: -120px;
+    margin-bottom: 10px;
+  }
+  
+  .case-study-content {
+    padding: 20px;
+  }
+  
+  .case-study-content h2 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  
+  .case-study-content p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  
+  .case-study-link {
+    font-size: 16px;
+  }
+}
+
+/* Compact mode styles */
+.compact-mode {
+  min-height: auto;
+}
+
+.compact-case-study {
+  margin-bottom: 0;
+  padding-bottom: 10px;
+} 

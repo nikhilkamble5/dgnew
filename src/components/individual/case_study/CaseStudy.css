@@ -1,0 +1,44 @@
+/* CaseStudy.css */
+
+.caseStudyOne-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .caseStudyOne-section {
+    margin-bottom: 20px;
+  }
+  
+  .caseStudyOne-section h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+  }
+  
+  .caseStudyOne-section h2 {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  
+  .caseStudyOne-section p {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+  
+  .caseStudyOne-section ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  .caseStudyOne-section li {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+  
+  .caseStudyOne-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+  }
+  

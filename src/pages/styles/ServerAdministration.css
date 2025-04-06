@@ -1,0 +1,574 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+.comit-container {
+  font-family: 'Montserrat', sans-serif;
+  color: #333;
+}
+
+/* Hero Section */
+.comit-hero-section {
+  background: linear-gradient(to right, #0D3B81, #1A56B0);
+  padding: 5rem 2rem;
+  color: white;
+}
+
+.comit-hero-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.comit-hero-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.comit-hero-text {
+  font-size: 1.125rem;
+  max-width: 800px;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.comit-btn {
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: none;
+  font-size: 1rem;
+}
+
+.comit-btn-primary {
+  background-color: white;
+  color: #0D3B81;
+}
+
+.comit-btn-primary:hover {
+  background-color: #f0f0f0;
+}
+
+.comit-btn-light {
+  background-color: white;
+  color: #0D3B81;
+}
+
+.comit-btn-light:hover {
+  background-color: #f0f0f0;
+}
+
+/* Introduction Section */
+.comit-intro-section {
+  padding: 4rem 2rem;
+  width: 100%;
+  margin: 0;
+}
+
+.comit-intro-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 3rem;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.comit-intro-text {
+  max-width: 100%;
+}
+
+.comit-section-title {
+  font-size: 1.875rem;
+  font-weight: 600;
+  color: #0D3B81;
+  margin-bottom: 1rem;
+}
+
+.comit-section-subtitle {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #1A56B0;
+  margin-bottom: 1rem;
+}
+
+.comit-text {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  color: #4B5563;
+}
+
+.comit-text-medium {
+  font-weight: 500;
+}
+
+.comit-values-container {
+  background-color: #F3F4F6;
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+.comit-values-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #0D3B81;
+  margin-bottom: 1rem;
+}
+
+.comit-values-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.comit-card {
+  background: white;
+  border-radius: 6px;
+  padding: 1rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.comit-card-text {
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+/* Table Section */
+.comit-table-section {
+  padding: 3rem 2rem;
+  background-color: #F9FAFB;
+}
+
+.comit-container-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.comit-text-center {
+  text-align: center;
+}
+
+.comit-table-wrapper {
+  overflow-x: auto;
+  margin-top: 2rem;
+}
+
+.comit-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.comit-table th {
+  background-color: #0D3B81;
+  color: white;
+  text-align: left;
+  padding: 1rem;
+}
+
+.comit-table td {
+  background-color: white;
+  padding: 1rem;
+  border-bottom: 1px solid #E5E7EB;
+}
+
+.comit-table td p {
+  margin: 0.5rem 0;
+}
+
+/* Use Cases Section */
+.comit-use-cases-section {
+  padding: 4rem 2rem;
+}
+
+.comit-use-cases-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.comit-use-case-card {
+  border: 1px solid #E5E7EB;
+  border-radius: 8px;
+  padding: 1.5rem;
+  background-color: white;
+}
+
+.comit-use-case-title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  line-height: 1.4;
+}
+
+.comit-use-case-text {
+  color: #4B5563;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.comit-highlight {
+  font-weight: 600;
+  color: #0D3B81;
+}
+
+/* Server Section */
+.comit-server-section {
+  padding: 0 2rem 4rem 2rem;
+  background-color: #F3F4F6;
+}
+
+/* Mobile adjustment to prevent overlap with ServicesBanner */
+@media (max-width: 576px) {
+  .server-mobile-adjustment {
+    margin-top: 0;
+  }
+  
+  .comit-server-section {
+    padding: 1rem 1rem 3rem 1rem;
+  }
+
+  .comit-section-title {
+    font-size: 1.5rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .comit-section-subtitle {
+    font-size: 1.25rem;
+    margin-bottom: 0.75rem;
+  }
+}
+
+.comit-server-content {
+  margin-top: 1.5rem;
+}
+
+.comit-content-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.comit-benefits-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 1.5rem;
+}
+
+.comit-benefit-item {
+  display: flex;
+  margin-bottom: 1rem;
+  align-items: flex-start;
+}
+
+.comit-benefit-icon {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 0.75rem;
+  margin-top: 0.25rem;
+}
+
+.comit-check-icon {
+  display: block;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: #4ade80;
+  border-radius: 50%;
+  position: relative;
+}
+
+.comit-check-icon::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 0.75rem;
+  height: 0.5rem;
+  border-left: 2px solid white;
+  border-bottom: 2px solid white;
+  transform: translate(-50%, -60%) rotate(-45deg);
+}
+
+.comit-benefit-content {
+  flex: 1;
+}
+
+.comit-benefit-title {
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.comit-benefit-text {
+  color: #4B5563;
+  line-height: 1.5;
+}
+
+/* Network Section */
+.comit-network-section {
+  padding: 4rem 2rem;
+}
+
+.comit-network-content {
+  margin-bottom: 3rem;
+}
+
+.comit-challenges-list {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 1.5rem;
+}
+
+.comit-challenge-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.comit-dot {
+  width: 0.5rem;
+  height: 0.5rem;
+  background-color: #0D3B81;
+  border-radius: 50%;
+  margin-right: 0.75rem;
+  flex-shrink: 0;
+}
+
+.comit-features-list {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.comit-features-list li {
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+  color: #4B5563;
+}
+
+.comit-services-overview {
+  margin-top: 3rem;
+}
+
+/* CTA Section */
+.comit-cta-section {
+  padding: 4rem 2rem;
+  background-color: #F9FAFB;
+}
+
+.comit-cta-block {
+  margin-bottom: 3rem;
+}
+
+.comit-cta-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #0D3B81;
+  margin-bottom: 1rem;
+}
+
+.comit-cta-text {
+  margin-bottom: 1rem;
+  color: #4B5563;
+  line-height: 1.6;
+}
+
+.comit-offer-list {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 1.5rem;
+}
+
+.comit-offer-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 0.75rem;
+}
+
+.comit-offer-content {
+  flex: 1;
+}
+
+.comit-offer-title {
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.comit-offer-text {
+  color: #4B5563;
+  line-height: 1.5;
+}
+
+.comit-additional-services {
+  margin-top: 3rem;
+}
+
+.comit-additional-service {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.comit-additional-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #0D3B81;
+  margin-bottom: 0.5rem;
+}
+
+.comit-additional-text {
+  color: #4B5563;
+  line-height: 1.5;
+}
+
+/* FAQ Section */
+.comit-faq-section {
+  padding: 4rem 2rem;
+}
+
+.comit-faq-list {
+  margin-top: 2rem;
+}
+
+.comit-faq-item {
+  margin-bottom: 1.5rem;
+}
+
+.comit-faq-question {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.comit-faq-answer {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.comit-faq-answer li {
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+}
+
+.comit-bold {
+  font-weight: 600;
+}
+
+.comit-faq-cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+.comit-faq-list-simple {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  margin: 0.75rem 0;
+}
+
+.comit-faq-list-simple li {
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+}
+
+.comit-mt {
+  margin-top: 1rem;
+}
+
+.comit-faq-simple-answer {
+  line-height: 1.5;
+  color: #4B5563;
+}
+
+.comit-full-width {
+  grid-column: 1 / -1;
+}
+
+/* Security Section */
+.comit-security-section {
+  padding: 4rem 2rem;
+}
+
+.comit-security-list {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  margin: 1.5rem 0;
+}
+
+.comit-security-list li {
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+  color: #4B5563;
+}
+
+.comit-issue-box {
+  background-color: #F3F4F6;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-top: 2rem;
+}
+
+.comit-issue-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #0D3B81;
+  margin-bottom: 0.75rem;
+}
+
+.comit-issue-solution {
+  line-height: 1.5;
+}
+
+/* Contact Section */
+.comit-contact-section {
+  padding: 4rem 2rem;
+  background-color: #0D3B81;
+  color: white;
+}
+
+.comit-text-center {
+  text-align: center;
+}
+
+.comit-contact-title {
+  font-size: 1.875rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.comit-contact-text {
+  font-size: 1.125rem;
+  margin-bottom: 1.5rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .comit-intro-grid, 
+  .comit-use-cases-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .comit-hero-title {
+    font-size: 2rem;
+  }
+  
+  .comit-intro-grid, 
+  .comit-faq-cols {
+    grid-template-columns: 1fr;
+  }
+  
+  .comit-use-cases-grid {
+    grid-template-columns: 1fr;
+  }
+}

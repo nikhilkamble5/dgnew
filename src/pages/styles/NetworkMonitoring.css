@@ -1,0 +1,356 @@
+.comit-intro-section {
+  padding: 4rem 2rem;
+  width: 100%;
+  margin: 0;
+  background-color: #ffffff;
+}
+
+.comit-intro-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.comit-intro-text {
+  max-width: 100%;
+}
+
+.comit-section-title {
+  font-size: 1.875rem;
+  font-weight: 600;
+  color: #0D3B81;
+  margin-bottom: 1.5rem;
+  line-height: 1.3;
+  position: relative;
+  padding-left: 1rem;
+  border-left: 4px solid #0D3B81;
+}
+
+.comit-text {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  color: #4B5563;
+}
+
+.comit-text-medium {
+  font-weight: 500;
+}
+
+/* Values Container */
+.comit-values-container {
+  background-color: #F3F4F6;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.comit-values-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #0D3B81;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.comit-values-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.comit-card {
+  background: white;
+  border-radius: 6px;
+  padding: 1.25rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.comit-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.comit-card-text {
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: #4B5563;
+  margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .comit-intro-grid {
+    gap: 2rem;
+  }
+  
+  .comit-section-title {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .comit-intro-section {
+    padding: 3rem 1.5rem;
+  }
+  
+  .comit-intro-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .comit-values-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .comit-section-title {
+    font-size: 1.375rem;
+  }
+  
+  .comit-text {
+    font-size: 0.9375rem;
+  }
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.comit-intro-section {
+  animation: fadeIn 0.6s ease-out;
+}
+
+.comit-card {
+  animation: fadeIn 0.6s ease-out;
+  animation-fill-mode: both;
+}
+
+/* CTA Section */
+.comit-cta-section {
+  padding: 4rem 2rem;
+  background-color: #F9FAFB;
+}
+
+.comit-container-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.comit-cta-block {
+  margin-bottom: 3rem;
+}
+
+.comit-cta-text {
+  margin-bottom: 1rem;
+  color: #4B5563;
+  line-height: 1.6;
+}
+
+.comit-btn {
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: none;
+  font-size: 1rem;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.comit-btn-primary {
+  background-color: #404ad8;
+  color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.comit-btn-primary:hover {
+  background-color: #0a2e66;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.comit-offer-list {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 1.5rem;
+}
+
+.comit-offer-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 0.75rem;
+}
+
+.comit-dot {
+  width: 0.5rem;
+  height: 0.5rem;
+  background-color: #0D3B81;
+  border-radius: 50%;
+  margin-right: 0.75rem;
+  flex-shrink: 0;
+}
+
+.comit-offer-content {
+  flex: 1;
+}
+
+.comit-offer-title {
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.comit-offer-text {
+  color: #4B5563;
+  line-height: 1.5;
+}
+
+.comit-services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.comit-additional-services {
+  margin-top: 3rem;
+}
+
+.comit-additional-service {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.comit-additional-title {
+  /* No need for these as they're defined in the consistent heading styles */
+}
+
+.comit-additional-text {
+  color: #4B5563;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .comit-services-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.comit-card:nth-child(1) { animation-delay: 0.2s; }
+.comit-card:nth-child(2) { animation-delay: 0.4s; }
+.comit-card:nth-child(3) { animation-delay: 0.6s; }
+.comit-card:nth-child(4) { animation-delay: 0.8s; }
+
+.comit-challenges-list {
+  padding-left: 2.5rem;
+  list-style-type: none;
+  margin-bottom: 1.5rem;
+}
+
+.comit-challenge-item {
+  position: relative;
+  margin-bottom: 1rem;
+  padding-left: 0;
+  line-height: 1.5;
+  color: #4B5563;
+}
+
+.comit-challenge-item::before {
+  content: "•";
+  position: absolute;
+  left: -1.5rem;
+  color: #0D3B81;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.comit-challenge-item p {
+  margin: 0;
+  display: inline;
+}
+
+.comit-dot {
+  display: none;
+}
+
+.comit-features-list {
+  padding-left: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.comit-features-list li {
+  position: relative;
+  padding-left: 1rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.5;
+  color: #4B5563;
+}
+
+.comit-features-list li::before {
+  content: "•";
+  position: absolute;
+  left: -1rem;
+  color: #0D3B81;
+  font-size: 1.2rem;
+}
+
+/* Consistent heading styles */
+.comit-content-title,
+.comit-section-subtitle,
+.comit-cta-title,
+.comit-service-title,
+.comit-additional-title,
+.comit-offer-title {
+  color: #0D3B81;
+  font-weight: 600;
+  position: relative;
+  padding-left: 1rem;
+  border-left: 4px solid #0D3B81;
+  margin-bottom: 1rem;
+}
+
+.comit-section-subtitle {
+  font-size: 1.5rem;
+  line-height: 1.3;
+}
+
+.comit-content-title {
+  font-size: 1.125rem;
+  line-height: 1.3;
+}
+
+.comit-cta-title {
+  font-size: 1.25rem;
+  line-height: 1.3;
+}
+
+.comit-service-title {
+  font-size: 1.125rem;
+  border-left: none;
+  padding-left: 0;
+  text-align: center;
+}
+
+.comit-additional-title {
+  font-size: 1.125rem;
+}
+
+.comit-offer-title {
+  border-left: none;
+  padding-left: 0;
+  margin-bottom: 0.25rem;
+}

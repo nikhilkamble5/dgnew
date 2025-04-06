@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+  --nav-button:#404ad8;
+  --nav-active:#1652f0;
+  --nav-letter:#4a4a4a;
+  --nav-menu-open:#ffffffeb;
+  --highlight-title:#20367d;
+  --description-para: #beb7b7;
+  --text-color: white;
+  --card-text:#0052cc;
+  --box-shadow:rgba(0, 0, 0, 0.1);
+  --card-back:rgba(249, 249, 249, 0.311);
+  --card-text:#4cc9f0;
+  --back-color:#0a2647;
+  --card-border:#f4f1f1;
+  --carousel-border:rgb(212, 210, 210);
+  --icon-styles:rgb(156, 155, 153);
+  
+  /* WhyChooseUs Component Variables */
+  --dgft-primary: #404ad8;
+  --dgft-secondary: #1652f0;
+  --dgft-light: #f9f9f9;
+  --dgft-text: #4a4a4a;
+}
+html {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif !important;
+  margin: 0rem;
+  background-color: var(--primary);
+  padding: 0rem;
+  -ms-overflow-style: none; 
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+}
+.rdrDefinedRangesWrapper {
+  display: none;
+  visibility: hidden;
+  width: 0rem !important;
+}
+
+*,
+*::after,
+*::before {
+  -ms-overflow-style: auto;  /* IE and Edge */
+  scrollbar-width: auto;  /* Firefox */
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+html:-webkit-scrollbar {
+  display: none !important;
+}
+
+body{
+  min-height: 100vh !important;
+  overflow-x: hidden; 
+  background-attachment: scroll;
+  background-size: cover;
+  /* background-position:bottom center; */
+  color: var(--secondary) !important;
+  transition: all .3s ease-in-out;
+  padding-right: 0rem !important;
+}
+.wrapper{
+  min-height: 100vh !important;
+  overflow-x: hidden; 
+  background-attachment: scroll;
+  background-size: cover;
+  color: var(--secondary) !important;
+  padding-right: 0rem !important;
+  transition: background-image 0.5s ease-in-out;
+
+}
+*,
+*::before,
+*::after {
+  scrollbar-width: none; 
+  -ms-overflow-style: none;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+a{
+  cursor: pointer;
+}
+
+.view-details-btn {
+  background-color: var(--dgft-primary);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.375rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.view-details-btn:hover {
+  background-color: var(--dgft-secondary);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
